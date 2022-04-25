@@ -1,0 +1,165 @@
+ <h1 class="text-center mt-5" style="font-family: 'Courier New', Courier, monospace;">Our Products </h1>
+
+<!--<div class="container">
+    <table class="table">
+        <table style="border: 2px solid black;">
+            <tr  style="border: 2px solid black;">
+              <th  style="border: 2px solid black;">First Name</th>
+              <th  style="border: 2px solid black;">Last Name</th>
+              <th  style="border: 2px solid black;">Email Address</th>
+            </tr>
+            <tr  style="border: 2px solid black;">
+             <td style="border: 2px solid black;" *ngFor="let d of data">{{d['name']}}</td>
+             <td style="border: 2px solid black;">Nyakundi</td>
+             <td style="border: 2px solid black;">tables@mail.com</td>
+            </tr>
+            <tr  style="border: 2px solid black;">
+              <td style="border: 2px solid black;" *ngFor="let d of data">{{d['Description']}}Lary</td>
+              <td style="border: 2px solid black;">Mak</td>
+              <td style="border: 2px solid black;">developer@mail.com</td>
+              <img  class="" *ngFor="let image of data"src="{{image['image']}}" alt="" >
+            </tr>
+          </table>
+
+    </table>
+  </div> -->
+
+  <div class=" block">
+  <div class="container mt-5 mb-5 d-flex">
+    <div class="card">
+        <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image1']}}" alt=""  class="img-fluid rounded">
+            <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                <h4 *ngFor="let d of data">{{d["name1"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+            </div>
+            <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description1"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price1"]}}</h3>
+            </div>
+            <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 mb-5 d-flex">
+<div class="card">
+    <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image2']}}" alt=""  class="img-fluid rounded">
+        <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+            <h4 *ngFor="let d of data">{{d["name2"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+        </div>
+        <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description2"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price2"]}}</h3>
+        </div>
+        <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+    </div>
+</div>
+</div>
+<div class="container mt-5 mb-5 d-flex">
+    <div class="card">
+        <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image3']}}" alt=""  class="img-fluid rounded">
+            <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                <h4 *ngFor="let d of data">{{d["name3"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+            </div>
+            <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description3"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price3"]}}</h3>
+            </div>
+            <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-5 mb-5 d-flex">
+        <div class="card">
+            <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image4']}}" alt=""  class="img-fluid rounded">
+                <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                    <h4 *ngFor="let d of data">{{d["name4"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+                </div>
+                <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description4"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price4"]}}</h3>
+                </div>
+                <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="block">
+            <div class="container mt-5 mb-5 d-flex">
+              <div class="card">
+                <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image5']}}" alt=""  class="img-fluid rounded">
+                    <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                        <h4 *ngFor="let d of data">{{d["name5"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+                    </div>
+                    <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description5"]}}</small> </div>
+                    <div class="px-2">
+                        <h3  *ngFor="let d of data">{{d["price5"]}}</h3>
+                      </div>
+                      <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container mt-5 mb-5 d-flex">
+          <div class="card">
+            <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image6']}}" alt=""  class="img-fluid rounded">
+                <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                    <h4 *ngFor="let d of data">{{d["name6"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+                </div>
+                <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description6"]}}</small> </div>
+                <div class="px-2">
+                    <h3  *ngFor="let d of data">{{d["price6"]}}</h3>
+                  </div>
+                  <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+              </div>
+          </div>
+          </div>
+          <div class="container mt-5 mb-5 d-flex">
+              <div class="card">
+                <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image7']}}" alt=""  class="img-fluid rounded">
+                    <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                        <h4 *ngFor="let d of data">{{d["name7"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+            </div>
+            <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description7"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price7"]}}</h3>
+                      </div>
+                      <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+                  </div>
+              </div>
+              </div>
+              <div class="container mt-5 mb-5 d-flex">
+                  <div class="card">
+                    <div class="inner-card">   <img  class="" *ngFor="let image of data"src="{{image['image8']}}" alt=""  class="img-fluid rounded">
+                        <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                            <h4 *ngFor="let d of data">{{d["name8"]}} </h4> <span class="heart"><i class="fa fa-heart"></i></span>
+            </div>
+            <div class="mt-2 px-2"> <small *ngFor="let d of data">{{d["Description8"]}}</small> </div>
+            <div class="px-2">
+                <h3  *ngFor="let d of data">{{d["price8"]}}</h3>
+                          </div>
+                          <div class="px-2 mt-3"> <button class="btn btn-primary px-3">Buy Now</button> <button class="btn btn-outline-primary px-3">Add to cart</button> </div>
+                      </div>
+                      <footer class="py-5 bg-dark">
+                        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+                    </footer>
+                  </div>
+                  </div>
+                  </div>
+         
+                <footer class="py-5 bg-dark">
+                    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+                </footer>
+
+
+
+
+
+
+       
+      
+
+
+
+
+      
+    
+       
+      
